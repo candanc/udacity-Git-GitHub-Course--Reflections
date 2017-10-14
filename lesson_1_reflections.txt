@@ -1,0 +1,39 @@
+
+
+
+
+
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+    
+I needn't read and compare the 2 documents line by line. The organization of the output and colors made seeing the differences easy. 
+
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+Whenever I need to turn back and check a code from Git history, first I can access what I want easily, second very fast. It is also the same for the codes of collaborates, by seeing step by step and with descriptions, understanding their codes will be easier, too.
+
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+cons: can bu used whenever it is necessary, prevents unlogical and unnesessarily long set of entries to be saved in one version. Also, no matter how long I give break, the changes can be saved in one commit.
+pros: can be forgotten.
+
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Some documents are related to each other, and sometimes we need to make changes in all those related documents. Hence, for a programmer, tracking all changed documents in one version is necessary.
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+git log: gives the saved versions and their explanations in a time/date order. Every version has also an ID which can be used easily see the codes of that version.
+git diff ID1 ID2: comparing the latter ID2 with the previous ID1
+
+
+How might using version control make you more confident to make changes that could break something?
+
+It is an easy and a reliable way to play with the codes. It serves the advantage of going forward and backward on the time line of changed codes. It makes is possible to start from anywhere, without loosing code. Bugs resulted from changes can also be detected easily by comparing different versions.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I will see :)

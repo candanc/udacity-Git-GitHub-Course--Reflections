@@ -1,0 +1,66 @@
+
+
+
+
+What happens when you initialize a repository? Why do you need to do it?
+
+Reposiroty is the hidden directory which stores the versions of the documents. Hence, if I want to save and use the versions of my project/document, I need to initialize a repository.
+
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+It is the transit area between working directory and repository. First we choose the files that will be tracked from working directory and after making some changes add them to staging area. They will be added to repository after committing.
+
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+By git diff command, I can compare the wd and s.area in order to be sure that I add the changes which I exactly want to see in repository. git diff --staged command is beneficial in comparing s.area and repository. I can check comitted and uncommited changes. 
+
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+- when trying new codes that we are not sure about the results.
+- when we need an another version which will use the same codes with small differences
+- when you are working on a project with a group and if you all resonsible from different parts of the project.
+- If you are working alone, it is again an advantage to work on different branches for different parts. Because you can work on which part you prefer.
+- By using branches you can write codes independetly and without any fear of loosing codes.
+
+
+How do the diagrams help you visualize the branch structure?
+
+The parent commits and reachability concepts are important. Understanding them means you understand that which branch holds which commits and which commit or version you will be able to turn. And also, it is important to see where you are in all the commits and branches, maybe when merging or updating a branch.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+2 branches and their initial/ state:
+-If a code/line from initial state is deleted in at least one branch: NOT included in merged document.
+ii-If a code/line from initial state exists in two branches: Included.
+iii-If a line that does not exist in initial state, but exists at least in one branch: included
+
+All the commits which are reachable by those two branches are saved in the new merging path. If "a" merged into "b", and if we delete "a", commits related to it will continue to be reachable.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+After all these examples and exercises, the second option seems imposible. Cons: can not find  solution for every situation. It needs to learn how to handle the similarities and differences and how to decide the solution. Pros: fast, less mistake, shows the choises in a regular and well understood template.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,7 +1,8 @@
 
 
+UDACITY: How to Use Git and GitHub
 
-
+Lesson 1 Reflections 
 
 How did viewing a diff between two versions of a file help you see the bug that was introduced?
     

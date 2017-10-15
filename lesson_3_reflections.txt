@@ -9,3 +9,9 @@ Lesson 3 Reflections
 When would you want to use a remote repository rather than keeping all your work local?
 
 Collaborating, using different computers in different places.. 
+
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+I want neither pull nor push automatically. I can make some experimental changes that I do not want to share with public and I also do not want to share a code which is not complete (or with bugs). In addition, other people can change and make contributions to my remote repositories, I also do not want to pull to my local repository without any evaluation.
+
